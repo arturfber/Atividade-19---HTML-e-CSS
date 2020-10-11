@@ -1,0 +1,72 @@
+header ul{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #333333;
+    padding: 2%;
+}
+
+a{
+    color: #FFF;
+    transition: color 0.15s;
+}
+
+a:hover{
+    color: rgb(161, 161, 161);
+}
+
+section ul{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: #800808;
+    padding: 2%;
+}
+
+.menu2{
+    color: #FFF;
+}
+
+
+/* =================  MEIO  ================== */
+
+.meio{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.meio .logo{
+    width: 40%;
+ 
+
+}
+
+.meio .social-icons i{ 
+    font-size: 40px;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    margin: 0 4%;
+}
+
+.contato i{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+
+/* =================  FINAL  ================== */
+
+.img{
+    width: 100%;
+    background: url(https://www.agenciar8.com.br/wp-content/uploads/2016/06/criacao-de-sites-5-dicas-para-seu-site-ter-sucesso.png)
+}
